@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <title>educational site</title>
+    <style>
+        body {
+          margin: 0;
+        }
+        
+        /* Style the header */
+        .header {
+            color:white;
+          background-color:brown;
+          padding: 20px;
+          text-align: center;
+          font-size: larger;
+        }
+        .topnav {
+          text-align: center;
+          background-color: brown;
+          font-size: 30px;
+          color:aliceblue;
+          padding-centre:30px;
+        }
+        .topnav a{color:white;
+          padding:80px;}
+        .column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+  margin:30px;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+  margin:30px;
+}
+
+.column.middle {
+  width: 30%;
+}
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+ }   
+.footer {color:white;
+          background-color:brown;
+          padding: 20px;
+          text-align: center;
+          font-size: larger;
+        }
+
+        </style>
+    <body>
+        <div class="header">
+        <h1 style="font-size:60px">Way to Success</h1>
+        </div>
+        <div class="topnav">
+          <a href="index.html">home</a>
+          <a href="about us.html">about us</a>
+          <a href="programs.html">subjects</a>
+          <a href="contact us.html">contact</a>
+        </div>
+        <div class="row">
+  <div class="column side">
+    <h1 style="font-size:30px">Why Choose Us?</h1>
+    <p style="font-size:30px">
+Quality Content: We prioritize quality in everything we offer, ensuring that our courses and resources meet the highest educational standards.
+
+Accessibility: Education should be accessible to all. That's why we strive to make our platform user-friendly and inclusive, catering to diverse learning needs and backgrounds.
+
+Continuous Improvement: We are committed to continuously improving our platform based on user feedback and the latest advancements in education technology. Your learning experience matters to us, and we're always working to make it better.</p>
+  </div>
+  <div class="column middle">
+    <h1 style="font-size:30px">Explore Our Features:</h1>
+    <p style="font-size:30px">Courses: Dive into our diverse range of courses covering various subjects, from mathematics and science to humanities and arts. Our courses are designed by experts in their fields to provide engaging and comprehensive learning experiences.
+
+Tutorials: Looking for quick guides or step-by-step tutorials? Our collection of tutorials offers practical insights and tips to help you grasp complex concepts and enhance your skills.
+
+Interactive Learning: Experience interactive learning like never before with our interactive simulations, quizzes, and games. These engaging activities make learning fun and effective, catering to different learning styles and preferences.
+
+Community Forums: Connect with fellow learners, ask questions, and share your knowledge in our vibrant community forums. Learning is a collaborative journey, and our forums provide a platform for meaningful discussions and peer support.
+
+Resources: Access a wide range of educational resources, including e-books, articles, videos, and more. Our curated collection ensures you have access to the latest and most reliable information to support your learning goals.</p>
+    </div>
+  <div class="column middle">
+    <h1 style="font-size:30px">Welcome to way to success</h1>
+    <p style="font-size:30px">At way to success, we believe in the transformative power of education. Our mission is to provide accessible and high-quality learning resources to empower individuals around the globe. Whether you're a student, educator, or lifelong learner, you'll find a wealth of valuable content and tools to support your journey toward knowledge and skill mastery.</p>
+
+  </div>
+  
+  <div class="column side">
+    <h1 style="font-size:30px">Join Us Today and Start Your Learning Journey!</h1>
+    <p style="font-size:30px">Ready to embark on your learning journey? Sign up for free today and gain access to our vast library of educational resources. Whether you're seeking to expand your knowledge, enhance your skills, or pursue a new passion, way to success is here to support you every step of the way.</p>
+  </div>
+</div>
+<div class="footer">
+          <h1>THANK YOU</h1>
+</div>
+    </body>
+</html>
